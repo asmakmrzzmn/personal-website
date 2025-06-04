@@ -1,50 +1,50 @@
 /* Fonts */
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 4rem; 
+scroll-behavior: smooth;
+scroll-padding-top: 4rem; 
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    background-color: #fff;
-    color: #111;
-    line-height: 1.6;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+  font-size: 16px;
 }
+
 .nav {
-    position: sticky;
-    top: 0;
-    background: #fff; 
-    padding: 1rem 1rem;
-    border-bottom: 1px solid #ccc;
-    font-family: 'IBM Plex Mono', monospace;
-    text-transform: lowercase;
-    letter-spacing: 0.05em;
-    z-index: 1000; /* stay above other content */
+  position: sticky;
+  top: 0;
+  background: #fff; 
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  z-index: 1000;
 }
 
 .nav ul {
-    display: flex;
-    flex-wrap: wrap; /* allow wrapping */
-    gap: 1rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: center; /* center items */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
 }
 
-
 .nav a {
-    text-decoration: none;
-    color: #000;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
 }
 
 .nav a:hover {
-    border-color: #000;
+  border-color: #000;
 }
 
 .page {
@@ -54,37 +54,37 @@ body {
 }
 
 .hero {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 
 .name {
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: -1px;
-    margin-bottom: 0.3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 0.3rem;
 }
 
 .tagline {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .socials a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 0.5rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0.5rem;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem 3rem;
 }
 
 .block {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .section-title {
@@ -106,30 +106,36 @@ body {
   margin-top: 0.5rem;
   hyphens: auto;
 }
+
 /* Certificate gallery layout */
 .cert-gallery {
   padding: 2rem 0;
 }
+
 .cert-row {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
+
 .cert-item {
   width: 150px;
   text-align: center;
   font-family: 'EB Garamond', serif;
 }
+
 .cert-item img {
   width: 100%;
   cursor: zoom-in;
   transition: transform 0.3s ease;
   border: 1px solid #ccc;
 }
+
 .cert-item img:hover {
   transform: scale(1.05);
 }
+
 .cert-caption {
   margin-top: 0.5rem;
   font-size: 0.875rem;
@@ -149,6 +155,7 @@ body {
   overflow: auto;
   background-color: rgba(0,0,0,0.85);
 }
+
 .modal-content {
   margin: auto;
   display: block;
@@ -156,6 +163,7 @@ body {
   max-height: 85vh;
   border-radius: 4px;
 }
+
 .close {
   position: absolute;
   top: 2rem;
@@ -165,37 +173,34 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-/*end cert*/
 
 .label {
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .period {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.9rem;
-    color: #888;
-    display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  color: #888;
+  display: block;
 }
-
 
 .skills {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.95rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.95rem;
 }
 
-/*zine-collage*/
+/* Zine collage */
 .zine-collage {
   position: relative;
   background: #fefefe;
@@ -216,6 +221,7 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s;
 }
+
 /* Image positions */
 .img1 { top: 40px; left: 0; transform: rotate(-2deg); }
 .img2 { top: 80px; left: 180px; transform: rotate(2deg); }
@@ -225,8 +231,6 @@ body {
 
 .collage-text {
   position: absolute;
-  top: 20px;
-  left: 380px;
   font-family: 'EB Garamond', serif;
   font-style: italic;
   line-height: 1.5;
@@ -238,61 +242,300 @@ body {
 .text2 { top: 180px; left: 420px; font-size: 0.95rem; }
 .text3 { top: 330px; left: 80px; font-family: 'IBM Plex Mono', monospace; font-size: 0.85rem; }
 
-/*end-zine-collage*/
-
 .colophon {
-    margin-top: 8rem;
-    padding-top: 4rem;
-    border-top: 1px solid #e0e0e0;
-    text-align: center;
+  margin-top: 8rem;
+  padding-top: 4rem;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
 }
 
 .colophon-text {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.7rem;
-    color: #999;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  color: #999;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
-
-/* Make it a bit “messy” on larger screens */
+/*Responsive*/
+/* Desktop styling */
 @media (min-width: 900px) {
-    .block:nth-child(even) {
-        transform: translateX(30px);
-    }
-    .block:nth-child(odd) {
-        transform: translateX(-30px);
-    }
+  .block:nth-child(even) {
+      transform: translateX(30px);
+  }
+  .block:nth-child(odd) {
+      transform: translateX(-30px);
+  }
+    .collage-wrapper {
+      margin-left: 4rem;
+  }
 }
 
-@media (max-width: 480px) {
-    .nav {
-        padding: 0.5rem;
-    }
-
-    .nav ul {
-        gap: 0.5rem;
-        font-size: 0.85rem;
-    }
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+  .page {
+      padding: 2rem 3rem;
+  }
+  
+  .hero {
+      margin-bottom: 4rem;
+      text-align: center;
+  }
+  
+  .name {
+      font-size: 2.5rem;
+  }
+  
+  .content {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+  }
+  
+  .desc {
+      text-align: left;
+      max-width: 100%;
+  }
+  
+  .block:nth-child(even),
+  .block:nth-child(odd) {
+      transform: none;
+  }
+  
+  .cert-item {
+      width: 120px;
+  }
+  
+  /* Fix notebook label centering */
+  .zine-collage .label {
+      margin-left: 0 !important;
+      text-align: center;
+  }
+  
+  .collage-wrapper {
+      transform: scale(0.7);
+      transform-origin: top left;
+      margin-left: 6rem;
+  }
+  .text1 {
+      top: 10px;
+      font-size: 0.9rem;
+      max-width: 250px;
+      margin-left: 2rem;
+  }
 }
 
+/* Small tablet and large mobile */
 @media (max-width: 600px) {
-  .zine-collage {
-    overflow-x: hidden;
+  .page {
+      padding: 1.5rem 2rem;
   }
-
+  
+  .hero {
+      margin-bottom: 3rem;
+  }
+  
+  .name {
+      font-size: 2rem;
+  }
+  
+  .tagline {
+      font-size: 0.9rem;
+  }
+  
+  .content {
+      gap: 2rem;
+  }
+  
+  .block {
+      margin-bottom: 2rem;
+  }
+  
+  .label {
+      font-size: 1rem;
+  }
+  
+  .cert-item {
+      width: 100px;
+  }
+  
+  .cert-caption {
+      font-size: 0.75rem;
+  }
+  
+  .zine-collage {
+      overflow-x: hidden;
+      padding-left: 0;
+  }
+  
+  /* Fix notebook label centering */
+  .zine-collage .label {
+      margin-left: 0 !important;
+      text-align: center;
+  }
+  
   .collage-wrapper {
-    transform: scale(0.6); /* Adjust this value as needed */
-    transform-origin: top left;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
+      transform: scale(0.6);
+      transform-origin: top left;
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      margin-left: 6rem;
+  }
+  
+  /* Make text more visible on mobile */
+  .text1 {
+      top: 10px;
+      font-size: 0.9rem;
+      max-width: 250px;
+      margin-left: 1rem;
+  }
+  
+  .colophon {
+      margin-top: 4rem;
+      padding-top: 2rem;
   }
 }
 
-@media (max-width: 400px) {
+/* Mobile phones */
+@media (max-width: 480px) {
+  .nav {
+      padding: 0.5rem 1rem;
+  }
+
+  .nav ul {
+      gap: 0.5rem;
+      font-size: 0.85rem;
+  }
+  
+  .page {
+      padding: 1rem 1.5rem;
+  }
+  
+  .hero {
+      margin-bottom: 2rem;
+  }
+  
+  .name {
+      font-size: 1.8rem;
+      line-height: 1.2;
+  }
+  
+  .tagline {
+      font-size: 0.85rem;
+  }
+  
+  .socials {
+      font-size: 0.9rem;
+  }
+  
+  .content {
+      gap: 1.5rem;
+  }
+  
+  .desc {
+      font-size: 0.95rem;
+      line-height: 1.7;
+  }
+  
+  .skills {
+      font-size: 0.85rem;
+  }
+  
+  .cert-row {
+      gap: 0.5rem;
+  }
+  
+  .cert-item {
+      width: 80px;
+  }
+  
+  .cert-caption {
+      font-size: 0.7rem;
+  }
+  
+  /* Fix notebook label centering */
+  .zine-collage .label {
+      margin-left: 0 !important;
+      text-align: center;
+  }
+  
   .collage-wrapper {
-    transform: scale(0.7);
+      transform: scale(0.5);
+      min-height: 200px;
+      transform-origin: top left;
+      margin-left: 2rem;
+  }
+  
+  /* Adjust text positions for mobile */
+  .text1 {
+      top: 5px;
+      left: 500px;
+      font-size: 0.8rem;
+      max-width: 200px;
+      margin-left: 5rem;
+  }
+  
+  .text2 {
+      font-size: 0.8rem;
+  }
+  
+  .text3 {
+      font-size: 0.75rem;
+  }
+  
+  .close {
+      top: 1rem;
+      right: 1.5rem;
+      font-size: 1.5rem;
+  }
+  
+  .colophon {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+  }
+  
+  .colophon-text {
+      font-size: 0.6rem;
+  }
+}
+
+/* Very small devices */
+@media (max-width: 375px) {
+  .page {
+      padding: 1rem;
+  }
+  
+  .name {
+      font-size: 1.6rem;
+  }
+  
+  .nav ul {
+      gap: 0.3rem;
+      font-size: 0.8rem;
+  }
+  
+  .cert-item {
+      width: 70px;
+  }
+  
+  /* Fix notebook label centering */
+  .zine-collage .label {
+      margin-left: 0 !important;
+      text-align: center;
+  }
+  
+  .collage-wrapper {
+      transform: scale(0.4);
+      min-height: 160px;
+      transform-origin: top left;
+      margin-left: 3rem;
+  }
+  
+  /* Further adjust text for very small screens */
+  .collage-text .text1 {
+      top: 0px;
+      left: 600px;
+      font-size: 0.75rem;
+      max-width: 180px;
   }
 }
