@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio – Asma</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png" type="image/png">
+
+  <style>
+    .portfolio-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .portfolio-header h1 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      letter-spacing: 0.5px;
+    }
+
+    .portfolio-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .portfolio-buttons a {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #000;
+      border: 1px solid #000;
+      padding: 0.6rem 1.2rem;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .portfolio-buttons a:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .portfolio-embed {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+    }
+
+    @media (max-width: 768px) {
+      .portfolio-buttons a {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+      }
+
+      .portfolio-embed {
+        aspect-ratio: 4/3;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="portfolio-header">
+      <h1>Portfolio</h1>
+      <div class="portfolio-buttons">
+        <a href="https://www.behance.net/gallery/229403967/PORTFOLIO-MULTIMEDIA-COMPUTING" target="_blank">View on Behance</a>
+        <a href="assets/PORTFOLIO.pdf" download>Download PDF</a>
+      </div>
+    </div>
+
+    <iframe 
+      class="portfolio-embed"
+      src="https://embed.figma.com/proto/YH8xu9LKxVNvh4XqwjNdo8/PORTFOLIO?node-id=2180-86&p=f&scaling=scale-down-width&content-scaling=fixed&page-id=2180%3A84&embed-host=share" allowfullscreen>
+    </iframe>
+    
+  </div>
+</body>
+</html>
